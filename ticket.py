@@ -9,7 +9,7 @@ from code import search_code, search_date, search_place, related_info
 
 interpreter.os = True
 interpreter.llm.supports_vision = True
-interpreter.llm.api_key = "sk-NV51c58fKzcyLM6tAanoETOmzzkcx4j9nuyMK5t6RvSV9qcL"  # LiteLLM, which we use to talk to LM Studio, requires this
+interpreter.llm.api_key = "xxx"  # LiteLLM, which we use to talk to LM Studio, requires this
 interpreter.llm.api_base = "https://api.chatanywhere.tech"  # Point this at any OpenAI compatible server
 
 interpreter.llm.supports_functions = True
